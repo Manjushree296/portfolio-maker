@@ -1,0 +1,28 @@
+/* ==== src/components/Sidebar.css ==== */
+
+.sidebar-container {
+  position: relative;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1100;
+}
+
+.sidebar img {
+  object-fit: cover;
+}

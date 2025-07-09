@@ -1,0 +1,32 @@
+.dashboard-container {
+ background: url('https://www.transparenttextures.com/patterns/diagmonds-light.png') repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.dashboard-content {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+
+.section-title {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+a.btn-outline-primary {
+  font-weight: bold;
+  margin-top: 10px;
+}
